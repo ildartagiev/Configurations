@@ -1,0 +1,17 @@
+[safe]
+	directory = D:/Source/Repos/RNB.DealerAccount
+	directory = D:/Source/Repos/RNB.DealerAccount.UI
+[core]
+	editor = code --wait
+[user]
+	name = ildartagiev
+	email = ildartagiev106@gmail.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	type = cat-file -t
+	dump = cat-file -p
